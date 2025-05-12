@@ -21,11 +21,6 @@
             border-bottom: 1px solid #ddd;
         }
 
-        .logo {
-            font-size: 1.5em;
-            font-weight: bold;
-        }
-
         nav ul {
             list-style: none;
             margin: 0;
@@ -34,18 +29,14 @@
             gap: 20px;
         }
 
-        nav ul li {
-            margin: 0;
-        }
-
-        nav ul li a {
+        nav ul a {
             transition: .15s;
             text-decoration: none;
             color: #333;
             font-size: 1em;
         }
 
-        nav ul li a:hover {
+        nav ul a:hover {
             transition: .15s;
             color: #007BFF;
         }
@@ -63,13 +54,13 @@
 
 <body>
     <header>
-        <div class="logo"><img class="logo" src="logo.png" alt="Логотип" /></div>
+        <img class="logo" src="logo.png" alt="Логотип" />
         <nav>
             <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">Обратная связь</a></li>
+                <a href="#">Главная</a>
+                <a href="#">О нас</a>
+                <a href="#">Услуги</a>
+                <a href="#">Обратная связь</a>
             </ul>
         </nav>
     </header>
