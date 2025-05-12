@@ -1,0 +1,2 @@
+ecmel.vscode-html-css
+techer.open-in-browser
